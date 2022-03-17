@@ -5,7 +5,7 @@ Por ejemplo, si tuvieramos todas las noticias de ABC del 2020 en Australia, podr
 
 El modelo más popular para hacer topic modeling es el de **latent Dirichlet allocation (LDA)**, el cual es un modelo estadístico *generativo* y *no supervisado*. Para entender estos últimos dos conceptos, se implementa un **modelo generativo de lenguaje** y el algoritmo de **k-means clustering**, respectivamente.
 \
-![image](1_Topic_modeling_y_LDA/Esquema_para_LDA.png)
+![image](https://github.com/pedro9olivares/ML_and_AI_for_the_Working_Analyst/blob/fe2a60db6968dfb8e9869eed4df2c752f0e717c3/1_Topic_modeling_y_LDA/Esquema_para_LDA.png)
 
 ## Índice
 * [Modelos generativos de lenguaje](#modelos-generativos-de-lenguaje)
