@@ -8,10 +8,10 @@ El modelo más popular para hacer topic modeling es el de **latent Dirichlet all
 ## Índice
 * [Modelos generativos de lenguaje](#modelos-generativos-de-lenguaje)
 * [K-means clustering](#k-means-clustering)
-* [Latent Dirichlet alocation](#latent-dirichlet-alocation)
+* [Latent Dirichlet allocation](#latent-dirichlet-allocation)
 
 ## Modelos generativos de lenguaje
 
 ## K-means clustering
 
-## Latent Dirichlet alocation
+## Latent Dirichlet allocation
