@@ -14,6 +14,14 @@ El modelo más popular para hacer topic modeling es el de **latent Dirichlet all
 * [Latent Dirichlet allocation](#latent-dirichlet-allocation)
 
 ## Modelos generativos de lenguaje
+Un modelo generativo de lenguaje es un modelo estadístico que se encarga de generar texto a partir de un vocabulario dado. En nuestro caso, el vocabulario estará dado por todas las palabras contenidas en el primer libro de Harry Potter. 
+
+Se puede utilizar cualquier archivo .txt como vocabulario, si así se desea. Para hacerlo, solamente hace falta:
+* subir su .txt a un repositorio de GitHub,
+* obtener la liga raw y
+* cambiar la siguiente línea por dicha liga raw:
+![image](https://github.com/pedro9olivares/ML_and_AI_for_the_Working_Analyst/blob/main/1_Topic_modeling_y_LDA/imagenAux1.png)
+
 
 ## K-means clustering
 
