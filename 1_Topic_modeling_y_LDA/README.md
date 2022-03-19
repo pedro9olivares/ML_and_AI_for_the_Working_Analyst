@@ -37,15 +37,15 @@ Y obtenemos resultados como el siguiente:
 
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/61219691/159108532-a96fcf4b-fb05-4a7b-b9e5-41d6cb1ac872.png">
 
-
 ### Generación de texto con distribución real
 Al tomar en cuenta la distribución real de las palabras, podremos generar un texto mucho más significativo y entendible. En nuestro ejemplo, podemos observar la siguiente distribución: 
 
 <img width="610" alt="image" src="https://user-images.githubusercontent.com/61219691/159108128-288f91f1-fde0-4a68-8a99-b6a70b477169.png">
 
+Con el uso de n-gramas, también podemos considerar aquellas secuencias de palabras con significado específico (por ejemplo, it was, on the, out of the, etc.).
+Así, implementamos una función `selecciona_siguiente_token(secuencia)` que inicialmente escoge una palabra al azar del vocabulario para iniciar la secuencia de palabras que se generará. Después, recibirá iterativamente la secuencia de palabras hasta entonces generada para concatenar la palabra más probable que siga. Utilizando esta función obtenemos textos más significativos, como el siguiente:
 
-
-
+![image](https://user-images.githubusercontent.com/61219691/159108951-dc7f47ea-a0bb-4215-9f2e-9d2d579a8073.png)
 
 ## K-means clustering
 
