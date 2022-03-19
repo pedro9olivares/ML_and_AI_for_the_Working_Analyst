@@ -22,10 +22,20 @@ Se puede utilizar cualquier archivo .txt como vocabulario, si así se desea. Par
 * subir su .txt a un repositorio de GitHub,
 * obtener la liga raw y
 * cambiar la siguiente línea por dicha liga raw:
-![image](https://github.com/pedro9olivares/ML_and_AI_for_the_Working_Analyst/blob/main/1_Topic_modeling_y_LDA/imagenAux1.png)
+```python
+!wget https://raw.githubusercontent.com/sharanyavb/harry-potter/master/Books_Text/HP1.txt
+```
 
 ### Generación de texto con distribución uniforme
 Al asumir una distribución uniforme, solamente estamos eligiendo palabras al azar de nuestro vocabulario y concatenándolas. Predeciblemente, este método no generará textos con mucho sentido la gran mayoría de las veces.
+
+Después de un preprocesamiento de los datos (eliminar palabras repetidas, expandir contracciones), generamos texto a través de la siguiente instrucción, especificando cuántas palabras queremos generar:
+```python
+' '.join(random.sample(libro_limpio.split(),15)) 
+```
+Y obtenemos resultados como el siguiente:
+<img width="411" alt="image" src="https://user-images.githubusercontent.com/61219691/159108532-a96fcf4b-fb05-4a7b-b9e5-41d6cb1ac872.png">
+
 
 ### Generación de texto con distribución real
 Al tomar en cuenta la distribución real de las palabras, podremos generar un texto mucho más significativo y entendible. En nuestro ejemplo, podemos observar la siguiente distribución: 
