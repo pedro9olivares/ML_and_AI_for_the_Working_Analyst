@@ -29,6 +29,7 @@ Al asumir una distribución uniforme, solamente estamos eligiendo palabras al az
 
 ### Generación de texto con distribución real
 Al tomar en cuenta la distribución real de las palabras, podremos generar un texto mucho más significativo y entendible. En nuestro ejemplo, podemos observar la siguiente distribución: 
+
 <img width="610" alt="image" src="https://user-images.githubusercontent.com/61219691/159108128-288f91f1-fde0-4a68-8a99-b6a70b477169.png">
 
 
