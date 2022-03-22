@@ -54,6 +54,6 @@ Matemáticamente, si
 
 <img src="https://render.githubusercontent.com/render/math?math=S = \{ x_i \}_{i\leq N} "> 
 
-es nuestro dataset 
+es nuestro dataset, con <img src="https://render.githubusercontent.com/render/math?math=x_i\in \mathbb{R}^d "> 
 
 ## Latent Dirichlet allocation
