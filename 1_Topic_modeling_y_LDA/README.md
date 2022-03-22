@@ -60,7 +60,7 @@ es nuestro dataset con cada registro <img src="https://render.githubusercontent.
 
 <img src="https://render.githubusercontent.com/render/math?math=S = S_1\cup S_2\cup ...\cup S_k "> 
 
-para un k determinado, en donde cada <img src="https://render.githubusercontent.com/render/math?math=S = S_i"> representa un clúster cuyo valor medio está dado por <img src="https://render.githubusercontent.com/render/math?math=S = \mu_i "> 
+para un k determinado, en donde cada <img src="https://render.githubusercontent.com/render/math?math=S_i"> representa un clúster cuyo valor medio está dado por <img src="https://render.githubusercontent.com/render/math?math=\mu_i "> 
 
 
 ## Latent Dirichlet allocation
