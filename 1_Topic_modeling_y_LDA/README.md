@@ -63,14 +63,15 @@ es nuestro dataset con cada registro <img src="https://render.githubusercontent.
 para un k determinado, en donde cada <img src="https://render.githubusercontent.com/render/math?math=S_i"> representa un clúster cuyo valor medio está dado por <img src="https://render.githubusercontent.com/render/math?math=\mu_i ">.
 
 ### Implementación del algoritmo
-* Seleccionar k puntos al azar dentro de S, por ejemplo, k = 3. Estos serán nuestros primeros centros de clúster <img src="https://render.githubusercontent.com/render/math?math=\mu_i ">.
+1. Seleccionar k puntos al azar dentro de S, por ejemplo, k = 3. Estos serán nuestros primeros centros de clúster <img src="https://render.githubusercontent.com/render/math?math=\mu_i ">.
 
 ![image](https://user-images.githubusercontent.com/61219691/159410993-68fb302e-5933-4c78-8e9e-b956a333dc3e.png)
 
-* Para cada <img src="https://render.githubusercontent.com/render/math?math=\x_i">, nos preguntamos a qué centro de clúster se acerca o parece más (en <img src="https://render.githubusercontent.com/render/math?math=x_i\in \mathbb{R}^2"> utilizamos la distancia euclidiana, por ejemplo).
+2. Para cada <img src="https://render.githubusercontent.com/render/math?math=\x_i">, nos preguntamos a qué centro de clúster se acerca o parece más (en <img src="https://render.githubusercontent.com/render/math?math=x_i\in \mathbb{R}^2"> utilizamos la distancia euclidiana, por ejemplo).
 
 ![image](https://user-images.githubusercontent.com/61219691/159411025-80eec923-3d8c-445f-9333-6bdf0b1408c8.png)
 
+3. Como nuestra elección inicial de centros de clúster puede ser mal, calculamos un nuevo promedio o centro de masa de cada clúster <img src="https://render.githubusercontent.com/render/math?math=\mu_i' "> y repetimos el segundo paso hasta obtener convergencia.
 
 
 ## Latent Dirichlet allocation
