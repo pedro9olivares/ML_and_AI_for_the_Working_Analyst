@@ -19,9 +19,9 @@ Un modelo generativo de lenguaje es un modelo estadístico que se encarga de gen
 Hay dos maneras de generar el texto, la primera es asumiendo una *distribución uniforme* entre todas las palabras del vocabulario y la segunda es asumiendo la *distribución real* de las palabras de nuestro vocabulario.
 
 Se puede utilizar cualquier archivo .txt como vocabulario, si así se desea. Para hacerlo, solamente hace falta:
-* subir su .txt a un repositorio de GitHub,
-* obtener la liga raw y
-* cambiar la siguiente línea por dicha liga raw:
+1. subir su .txt a un repositorio de GitHub,
+2. obtener la liga raw y
+3. cambiar la siguiente línea por dicha liga raw:
 ```python
 !wget https://raw.githubusercontent.com/sharanyavb/harry-potter/master/Books_Text/HP1.txt
 ```
@@ -65,13 +65,16 @@ para un k determinado, en donde cada <img src="https://render.githubusercontent.
 ### Implementación del algoritmo
 1. Seleccionar k puntos al azar dentro de S, por ejemplo, k = 3. Estos serán nuestros primeros centros de clúster <img src="https://render.githubusercontent.com/render/math?math=\mu_i ">.
 
-![image](https://user-images.githubusercontent.com/61219691/159410993-68fb302e-5933-4c78-8e9e-b956a333dc3e.png)
+![image](https://user-images.githubusercontent.com/61219691/159411472-5ed2a8ef-5230-4a11-a52b-208a44c16e4c.png)
 
 2. Para cada <img src="https://render.githubusercontent.com/render/math?math=\x_i">, nos preguntamos a qué centro de clúster se acerca o parece más (en <img src="https://render.githubusercontent.com/render/math?math=x_i\in \mathbb{R}^2"> utilizamos la distancia euclidiana, por ejemplo).
 
 ![image](https://user-images.githubusercontent.com/61219691/159411396-73398df7-bffa-4fb7-91d7-35f488856e3c.png)
 
 3. Como nuestra elección inicial de centros de clúster puede ser mala, calculamos un nuevo promedio o centro de masa de cada clúster <img src="https://render.githubusercontent.com/render/math?math=\mu_i' "> y repetimos el segundo paso hasta obtener convergencia.
+
+![image](https://user-images.githubusercontent.com/61219691/159411514-7a105fb5-c781-45f1-a005-3bebdb37a730.png)
+
 
 
 ## Latent Dirichlet allocation
