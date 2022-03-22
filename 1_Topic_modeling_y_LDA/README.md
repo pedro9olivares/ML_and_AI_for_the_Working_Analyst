@@ -50,6 +50,6 @@ Así, implementamos una función `selecciona_siguiente_token(secuencia)` que ini
 ## K-means clustering
 El algoritmo de k-means clustering tiene como objetivo particionar una base de datos o *dataset* en k grupos, donde cada registro del dataset pertenece al grupo cuyo valor medio es más cercano. Este algoritmo es un ejemplo de un método de aprendizaje no supervisado, ya que a priori no tenemos una clasificación o etiquetado de nuestros registros.
 
-Matemáticamente, si <img src="https://render.githubusercontent.com/render/math?math=S = x "> es nuestro dataset 
+Matemáticamente, si <img src="https://render.githubusercontent.com/render/math?math=S = {x} "> es nuestro dataset 
 
 ## Latent Dirichlet allocation
