@@ -54,9 +54,9 @@ Matemáticamente, si
 
 <img src="https://render.githubusercontent.com/render/math?math=S = \{ x_i \}_{i\leq N} "> 
 
-es nuestro dataset, con cada registro <img src="https://render.githubusercontent.com/render/math?math=x_i\in \mathbb{R}^d "> , buscamos 
+es nuestro dataset con cada registro <img src="https://render.githubusercontent.com/render/math?math=x_i\in \mathbb{R}^d "> , buscamos 
 
-<img src="https://render.githubusercontent.com/render/math?math=S = S_1\cup S_2\cup ...\cupS_k "> 
+<img src="https://render.githubusercontent.com/render/math?math=S = S_1\cup S_2\cup ...\cup S_k "> 
 
 para un k determinado.
 
