@@ -65,11 +65,11 @@ para un k determinado, en donde cada <img src="https://render.githubusercontent.
 ### Implementación del algoritmo
 * Seleccionar k puntos al azar dentro de S, por ejemplo, k = 3. Estos serán nuestros primeros centros de clúster <img src="https://render.githubusercontent.com/render/math?math=\mu_i ">.
 
-![image](https://user-images.githubusercontent.com/61219691/159410746-7e845d9d-a11d-4fa5-98e7-47deebaac8d9.png)
+![image](https://user-images.githubusercontent.com/61219691/159410993-68fb302e-5933-4c78-8e9e-b956a333dc3e.png)
 
-* Para cada <img src="https://render.githubusercontent.com/render/math?math=\x_i ">, nos preguntamos a qué centro de clúster se acerca o parece más (en <img src="https://render.githubusercontent.com/render/math?math=x_i\in \mathbb{R}^2"> utilizamos la distancia euclidiana, por ejemplo).
+* Para cada <img src="https://render.githubusercontent.com/render/math?math=\x_i">, nos preguntamos a qué centro de clúster se acerca o parece más (en <img src="https://render.githubusercontent.com/render/math?math=x_i\in \mathbb{R}^2"> utilizamos la distancia euclidiana, por ejemplo).
 
-![image](https://user-images.githubusercontent.com/61219691/159410924-697aaf40-0b49-4d09-b14f-3ab4c29148cc.png)
+![image](https://user-images.githubusercontent.com/61219691/159411025-80eec923-3d8c-445f-9333-6bdf0b1408c8.png)
 
 
 
