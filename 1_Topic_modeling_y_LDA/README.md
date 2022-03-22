@@ -69,9 +69,9 @@ para un k determinado, en donde cada <img src="https://render.githubusercontent.
 
 2. Para cada <img src="https://render.githubusercontent.com/render/math?math=\x_i">, nos preguntamos a qué centro de clúster se acerca o parece más (en <img src="https://render.githubusercontent.com/render/math?math=x_i\in \mathbb{R}^2"> utilizamos la distancia euclidiana, por ejemplo).
 
-![image](https://user-images.githubusercontent.com/61219691/159411025-80eec923-3d8c-445f-9333-6bdf0b1408c8.png)
+![image](https://user-images.githubusercontent.com/61219691/159411396-73398df7-bffa-4fb7-91d7-35f488856e3c.png)
 
-3. Como nuestra elección inicial de centros de clúster puede ser mal, calculamos un nuevo promedio o centro de masa de cada clúster <img src="https://render.githubusercontent.com/render/math?math=\mu_i' "> y repetimos el segundo paso hasta obtener convergencia.
+3. Como nuestra elección inicial de centros de clúster puede ser mala, calculamos un nuevo promedio o centro de masa de cada clúster <img src="https://render.githubusercontent.com/render/math?math=\mu_i' "> y repetimos el segundo paso hasta obtener convergencia.
 
 
 ## Latent Dirichlet allocation
