@@ -71,7 +71,7 @@ para un k determinado, en donde cada <img src="https://render.githubusercontent.
 
 ![image](https://user-images.githubusercontent.com/61219691/159411396-73398df7-bffa-4fb7-91d7-35f488856e3c.png)
 
-3. Como nuestra elección inicial de centros de clúster puede ser mala, calculamos un nuevo promedio de cada clúster <img src="https://render.githubusercontent.com/render/math?math=\mu_i' "> y repetimos a partir del segundo paso hasta obtener convergencia.
+3. Como nuestra elección inicial de centros de clúster puede ser mala, calculamos un nuevo promedio de cada clúster <img src="https://render.githubusercontent.com/render/math?math=\mu_i' "> y repetimos a partir del segundo inciso, los pasos que sean necesarios, hasta obtener convergencia.
 
 ![image](https://user-images.githubusercontent.com/61219691/159411514-7a105fb5-c781-45f1-a005-3bebdb37a730.png)
 
