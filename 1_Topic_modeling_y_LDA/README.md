@@ -26,7 +26,7 @@ Se puede utilizar cualquier archivo .txt como vocabulario, si así se desea. Par
 !wget https://raw.githubusercontent.com/sharanyavb/harry-potter/master/Books_Text/HP1.txt
 ```
 
-#### Generación de texto con distribución uniforme
+### Generación de texto con distribución uniforme
 Al asumir una distribución uniforme, solamente estamos eligiendo palabras al azar de nuestro vocabulario y concatenándolas. Predeciblemente, este método no generará textos con mucho sentido.
 
 Después de un preprocesamiento de los datos (eliminar palabras repetidas, expandir contracciones), generamos texto a través de la siguiente instrucción, especificando cuántas palabras queremos generar:
@@ -37,7 +37,7 @@ Y obtenemos resultados como el siguiente:
 
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/61219691/159108532-a96fcf4b-fb05-4a7b-b9e5-41d6cb1ac872.png">
 
-#### Generación de texto con distribución real
+### Generación de texto con distribución real
 Al tomar en cuenta la distribución real de las palabras, podremos generar un texto mucho más significativo y entendible. En nuestro ejemplo, podemos observar la siguiente distribución: 
 
 <img width="610" alt="image" src="https://user-images.githubusercontent.com/61219691/159108128-288f91f1-fde0-4a68-8a99-b6a70b477169.png">
@@ -61,6 +61,8 @@ es nuestro dataset con cada registro <img src="https://render.githubusercontent.
 <img src="https://render.githubusercontent.com/render/math?math=S = S_1\cup S_2\cup ...\cup S_k "> 
 
 para un k determinado, en donde cada <img src="https://render.githubusercontent.com/render/math?math=S_i"> representa un clúster cuyo valor medio está dado por <img src="https://render.githubusercontent.com/render/math?math=\mu_i ">.
+
+### Implementación del algoritmo
 
 
 ## Latent Dirichlet allocation
