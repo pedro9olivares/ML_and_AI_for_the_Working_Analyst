@@ -50,7 +50,7 @@ Así, implementamos una función `selecciona_siguiente_token(secuencia)` que ini
 ## K-means clustering
 El algoritmo de k-means clustering tiene como objetivo particionar una base de datos o *dataset* en k grupos o *clústers*, donde cada registro del dataset pertenece al clúster cuyo valor medio es más cercano. Este algoritmo es un ejemplo de un método de aprendizaje no supervisado, ya que *a priori* no tenemos una clasificación o etiquetado de nuestros registros.
 
-En nuestro caso, utilizaremos un dataset donde cada registro contiene una fecha e información ambiental (temperatura, humedad, CO2, etc.) para un cierto lugar de trabajo u oficina. Lo que se busca es encontrar k-clústers que describan el nivel de comodidad que sentiría un empleado en ciertas condiciones ambientales.
+En nuestro caso, utilizaremos un dataset donde cada registro contiene una fecha e información ambiental (temperatura, humedad, CO2, etc.) para un cierto lugar de trabajo u oficina. Lo que se busca es encontrar k-clústers que describan el nivel de comodidad que sentiría un empleado en ciertas condiciones ambientales. [Link del challenge original](https://challengedata.ens.fr/challenges/15)
 
 Matemáticamente, si 
 
