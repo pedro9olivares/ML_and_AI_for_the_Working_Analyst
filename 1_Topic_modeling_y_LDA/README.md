@@ -75,12 +75,19 @@ para un k determinado, en donde cada <img src="https://render.githubusercontent.
 
 Dos problemas que surgen en k-means son que no se permite la intersección entre clústers o tópicos y la famosa maldición de la dimensión. Para remediar estos incovenientes hacemos uso de LDA que, aparte de ser generativo y no supervisado, es un modelo estadístico que hace uso de **variables latentes**. 
 
-En nuestro ejemplo, trabajaremos con todas las noticias de ABC del 2020 en Australia para descubrir qué temas fueron los más hablados: el surgimiento del Covid, las restricciones de viaje, las elecciones en EU, etc.
-
 ### Variables latentes
 Las variables latentes, obtenidas a través de un PCA (principal component analysis), permiten que conjuntos de documentos puedan ser explicados por características no observadas, sino inferidas. 
 
 [Un ejemplo muy popular](https://www.nature.com/articles/nature07331) y poderoso es el siguiente: dada una base de datos de material genético europeo sin *información geográfica*, se pueden inferir distancias geográficas entre individuos que reflejan el mapa de Europa.
 
 ![image](https://user-images.githubusercontent.com/61219691/159780585-a8ca4129-2d6d-47ed-9644-d8955f56b52b.png)
+
+### Características estadísticas
+En nuestro ejemplo, trabajaremos con todas las noticias de ABC del 2020 en Australia para descubrir qué temas fueron los más hablados: el surgimiento del Covid, las restricciones de viaje, las elecciones en EU, etc. Las características estadísticas que diferencian al LDA son las siguientes:
+### Distribución de temas en cada noticia (O ó ϴ) 
+
+### Distribución de palabras en cada tema (μ)
+
+### Visualización del modelo
+
 
