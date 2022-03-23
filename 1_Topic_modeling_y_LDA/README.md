@@ -1,8 +1,6 @@
 # Módulo 1: Topic modeling y LDA
 El modelado de temas (topic modeling) es una técnica de machine learning que se usa para descubrir qué temas o tópicos ocurren en una colección de documentos.
 
-Por ejemplo, si tuvieramos todas las noticias de ABC del 2020 en Australia, podríamos descubrir qué temas fueron los más hablados: el surgimiento del Covid, las restricciones de viaje, las elecciones en EU, etc.
-
 El modelo más popular para hacer topic modeling es el de **latent Dirichlet allocation (LDA)**, el cual es un modelo estadístico *generativo* y *no supervisado*. Para entender estos dos últimos conceptos, se implementa un **modelo generativo de lenguaje** y el modelo de **k-means clustering**, respectivamente.
 
 (Cada modelo se implementa por separado).
@@ -80,6 +78,8 @@ para un k determinado, en donde cada <img src="https://render.githubusercontent.
 ## Latent Dirichlet allocation
 
 Dos problemas que surgen en k-means son que no se permite la intersección entre clústers o tópicos y la famosa maldición de la dimensión. Para remediar estos incovenientes hacemos uso de LDA que, aparte de ser generativo y no supervisado, es un modelo estadístico que hace uso de **variables latentes**. 
+
+En nuestro ejemplo, trabajaremos con todas las noticias de ABC del 2020 en Australia para descubrir qué temas fueron los más hablados: el surgimiento del Covid, las restricciones de viaje, las elecciones en EU, etc.
 
 ### Variables latentes
 Las variables latentes, obtenidas a través de un PCA (principal component analysis), permiten que conjuntos de documentos puedan ser explicados por características no observadas, sino inferidas. 
