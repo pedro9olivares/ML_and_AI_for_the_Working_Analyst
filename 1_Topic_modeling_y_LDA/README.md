@@ -27,11 +27,7 @@ Se puede utilizar cualquier archivo .txt como vocabulario, si así se desea. Par
 ### Generación de texto con distribución uniforme
 Al asumir una distribución uniforme, solamente estamos eligiendo palabras al azar de nuestro vocabulario y concatenándolas. Predeciblemente, este método no generará textos con mucho sentido.
 
-Después de un preprocesamiento de los datos (eliminar palabras repetidas, expandir contracciones), generamos texto a través de la siguiente instrucción, especificando cuántas palabras queremos generar:
-```python
-' '.join(random.sample(libro_limpio.split(),15)) 
-```
-Y obtenemos resultados como el siguiente:
+Después de un preprocesamiento de los datos (eliminar palabras repetidas, expandir contracciones), obtenemos resultados como el siguiente:
 
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/61219691/159108532-a96fcf4b-fb05-4a7b-b9e5-41d6cb1ac872.png">
 
