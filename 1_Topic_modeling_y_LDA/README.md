@@ -1,5 +1,5 @@
 # Módulo 1: Topic modeling y LDA
-El modelado de temas (topic modeling) es una técnica de machine learning que se usa para descubrir qué temas o tópicos ocurren en una colección de documentos. Este repositorio contiene el material necesario para su entendimiento e implementación.
+El modelado de temas (topic modeling) es una técnica de machine learning que se usa para descubrir qué temas o tópicos ocurren en una colección de documentos. Este repositorio contiene el material necesario para su entendimiento y la implementación de varios ejemplos.
 
 El modelo más popular para hacer topic modeling es el de **latent Dirichlet allocation (LDA)**, el cual es un modelo estadístico *generativo* y *no supervisado*. Para entender estos dos últimos conceptos, se implementa un **modelo generativo de lenguaje** y el modelo de **k-means clustering**, respectivamente.
 
