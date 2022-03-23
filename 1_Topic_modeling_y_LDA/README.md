@@ -84,6 +84,10 @@ Las variables latentes, obtenidas a través de un PCA (principal component analy
 ### Características estadísticas
 En nuestro ejemplo, trabajaremos con todas las noticias de ABC del 2020 en Australia para descubrir qué temas fueron los más hablados: el surgimiento del Covid, las restricciones de viaje, las elecciones en EU, etc. Las características estadísticas que diferencian al LDA son las siguientes:
 ### Distribución de temas en cada noticia (O ó ϴ) 
+Al igual que en k-means, se define un hiperparámetro k que corresponderá al número de particiones. Ahora, sin embargo, a cada noticia le asignaremos su relación porcentual con cada tema.
+
+Suponiendo 5 tópicos, la noticia 0 tendrá la siguiente distribución con respecto al tema: 
+![image](https://user-images.githubusercontent.com/61219691/159785280-0c0f6d1b-6f76-4d6a-af06-5e999589b6bd.png)
 
 ### Distribución de palabras en cada tema (μ)
 
