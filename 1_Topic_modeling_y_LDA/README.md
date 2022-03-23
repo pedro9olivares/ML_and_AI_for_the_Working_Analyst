@@ -90,6 +90,8 @@ Suponiendo 5 tópicos, la noticia 0 tendrá la siguiente distribución con respe
 ![image](https://user-images.githubusercontent.com/61219691/159785280-0c0f6d1b-6f76-4d6a-af06-5e999589b6bd.png)
 
 ### Distribución de palabras en cada tema (μ)
+A su vez, por cada tópico podemos ver qué tan frecuentemente ocurre cierta palabra:
+![image](https://user-images.githubusercontent.com/61219691/159786231-19fd607c-5079-42d9-9b72-1075273e1ca1.png)
 
 ### Visualización del modelo
 
