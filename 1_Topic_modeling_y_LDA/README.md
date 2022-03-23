@@ -95,6 +95,9 @@ A su vez, por cada tópico podemos ver qué tan frecuentemente ocurre cierta pal
 
 ![image](https://user-images.githubusercontent.com/61219691/159786631-106a0576-512f-48ba-92f0-d3937afdaf6f.png)
 
-### Visualización del modelo
+#### Visualización del modelo
+Finalmente, usando la librería `pyLDAvis` podemos visualizar nuestras distribuciones para, cualitativamente, descubrir los tópicos que ocurren en nuestros documentos.
+
+![image](https://user-images.githubusercontent.com/61219691/159788282-2a06d1da-575e-4e11-baa1-14b332f8235c.png)
 
 
