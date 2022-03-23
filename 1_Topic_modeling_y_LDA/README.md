@@ -86,7 +86,7 @@ En nuestro ejemplo, trabajaremos con todas las noticias de ABC del 2020 en Austr
 #### Distribución de temas en cada noticia (O ó ϴ) 
 Al igual que en k-means, se define un hiperparámetro k que corresponderá al número de particiones. Ahora, sin embargo, a cada noticia le asignaremos su relación porcentual con cada tema.
 
-Suponiendo 5 tópicos, la noticias muestran la siguiente distribución con respecto a los temas: 
+Suponiendo 5 tópicos {0, 1, 2, 3 , 4}, la noticias muestran la siguiente distribución con respecto a los temas: 
 
 ![image](https://user-images.githubusercontent.com/61219691/159786867-07129c45-b134-47ea-adc9-1ffa90d910df.png)
 
